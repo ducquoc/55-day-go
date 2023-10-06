@@ -19,3 +19,30 @@
 
 # Go workspace file
 go.work
+
+# IDE generated (IDEA/GoLand/etc...)
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.idea_modules/
+atlassian-ide-plugin.xml
+cmake-build-*/
+
+# OS & temp files
+.DS_Store
+*.a[56789o]
+#*.so
+*.pyc
+._*
+.nfs.*
+#[56789a].out
+*~
+*.orig
+*.rej
+#*.exe
+.*.swp
+_testmain.go
+Thumbs.db
+ehthumbs.db
