@@ -1,0 +1,23 @@
+# To run the program, download module dependencies `hello.go` if exists `go.mod`
+# by `go mod tidy` (go 1.18) or `go mod vendor` (go 1.19+)
+$ go mod tidy
+go: downloading rsc.io/quote v1.5.2
+go: downloading rsc.io/sampler v1.3.0
+go: downloading golang.org/x/text v0.0.0-20170915032832-14c0d48ead0c
+
+# Then run it by `go run`
+$ go run .
+Don't communicate by sharing memory, share memory by communicating.
+
+# To build binaries, use `go build`.
+$ go build hello.go
+$ ls
+hello	hello.go
+
+# We can then execute the built binary directly.
+$ ./hello
+Don't communicate by sharing memory, share memory by communicating.
+
+# If $GOPATH already defined, `go install` will put the built binary to $GOPATH/bin , i.e. $GOBIN
+$ go install
+$ go env | grep "/go/"

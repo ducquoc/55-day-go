@@ -1,0 +1,6 @@
+$ go test example.com/greetings
+=== RUN   TestHelloName
+--- PASS: TestHelloName (0.00s)
+=== RUN   TestHelloEmpty
+--- PASS: TestHelloEmpty (0.00s)
+PASS
