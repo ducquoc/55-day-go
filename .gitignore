@@ -46,3 +46,8 @@ cmake-build-*/
 _testmain.go
 Thumbs.db
 ehthumbs.db
+
+# binaries built/generated
+/src/36-command-line-arguments/command-line-arguments
+/src/36-command-line-flags/command-line-flags
+/src/36-command-line-subcommands/command-line-subcommands
