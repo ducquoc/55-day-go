@@ -48,6 +48,10 @@ Thumbs.db
 ehthumbs.db
 
 # binaries built/generated
-/src/36-command-line-arguments/command-line-arguments
-/src/36-command-line-flags/command-line-flags
-/src/36-command-line-subcommands/command-line-subcommands
+## ignore files without extensions - unignore ones with extensions - in "src" sub-folders [0-9]*
+/src/[0-9]*/*
+!/src/[0-9]*/*.*
+## ignore files without extensions - end
+/src/*/hello
+/src/*/hello-world
+/src/*/mail-ses

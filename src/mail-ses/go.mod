@@ -1,4 +1,4 @@
-module gitlab.com/55-day-go
+module gitlab.com/ducquoc/55-day-go
 
 go 1.20
 
